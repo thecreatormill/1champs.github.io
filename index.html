@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewYork Deivis Painting CORP.</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.562);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            z-index: 10;
+            box-sizing: border-box; 
+        }
+
+        .left-text, .right-text {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .section {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding-top: 80px; 
+            box-sizing: border-box; 
+        }
+
+        .text {
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .text-main {
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .first-section {
+            background-image: url('https://www.paginasamarillas.com.pe/_next/image?url=https%3A%2F%2Fwww.paginasamarillas.com.pe%2Fimagenes%2Fpe%2Fimages%2Fad_id_4746%2Fimage_id_122329.jpeg&w=3840&q=75');
+        }
+
+        @media only screen and (max-width: 768px) {
+            .left-text, .right-text {
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            }
+
+            .text-main {
+            font-size: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left-text">NewYork Deivis Painting</div>
+        <div class="right-text">+1 (917) 794-0708</div>
+    </header>
+    <div class="section first-section">
+        <div class="text-main" style="color: black;">Revive tus espacios con nosotros.</div>
+    </div>
+    <div class="section" style="background-color: white;">
+        <div class="text" style="color: black;">Acerca de</div>
+    </div>
+    <div class="section" style="background-color: #2196F3;">
+        <div class="text">Servicios</div>
+    </div>
+    <div class="section" style="background-color: #FF9800;">
+        <div class="text">Contacto</div>
+    </div>
+</body>
+</html>
